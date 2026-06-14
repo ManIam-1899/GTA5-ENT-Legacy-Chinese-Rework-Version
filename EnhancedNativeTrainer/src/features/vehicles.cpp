@@ -6348,7 +6348,7 @@ bool process_carspawn_menu() {
 	// 中文注释：在子菜单第一项加入“生成随机车辆”
 	{
 		MenuItem<int>* item = new MenuItem<int>();
-		item->caption = "生成随机车辆";
+		item->caption = "~h~生成随机车辆";
 		item->value = -10;		// 特殊值，用于在确认回调中分支处理
 		item->isLeaf = true;	// 直接触发生成动作
 		menuItems.push_back(item);
